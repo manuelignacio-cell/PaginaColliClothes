@@ -12,7 +12,7 @@ export default function ProductCard({ product, onAdd }: ProductCardProps) {
   const sinStock = product.stock <= 0;
   return (
     <div className="card h-100" data-testid="product-card">
-      <ProductImage categoria={product.categoria} alt={product.nombre} />
+      <ProductImage categoria={product.categoria} alt={product.nombre} img={product.img} />
       <div className="card-body d-flex flex-column">
         <h3 className="h6 card-title">
           <AppLink href={`/productos/${product.id}`} className="text-decoration-none text-dark">

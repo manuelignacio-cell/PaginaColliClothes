@@ -21,7 +21,7 @@ export default function DetalleProducto() {
 
   return (
     <div className="row g-4">
-      <div className="col-md-5"><ProductImage categoria={product.categoria} alt={product.nombre} /></div>
+      <div className="col-md-5"><ProductImage categoria={product.categoria} alt={product.nombre} img={product.img} /></div>
       <div className="col-md-7">
         <h1 className="h3">{product.nombre}</h1>
         <p>{product.descripcion}</p>

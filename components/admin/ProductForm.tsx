@@ -13,7 +13,7 @@ interface ProductFormProps {
 }
 
 const EMPTY: ProductData = {
-  nombre: "", descripcion: "", categoria: "", precio: 0, oferta: false, precioOferta: 0, stock: 0, stockCritico: 5, talla: "",
+  nombre: "", descripcion: "", categoria: "", precio: 0, oferta: false, precioOferta: 0, stock: 0, stockCritico: 5, talla: "", img: "",
 };
 
 export default function ProductForm({ categories, initial = EMPTY, onSave, submitLabel = "Guardar" }: ProductFormProps) {
@@ -78,6 +78,10 @@ export default function ProductForm({ categories, initial = EMPTY, onSave, submi
           <input id="pf-poferta" type="number" className="form-control" value={form.precioOferta} onChange={num("precioOferta")} />
         </div>
       )}
+      <div className="col-12">
+        <label className="form-label" htmlFor="pf-img">Foto (ruta, ej: /img/productos/polera.jpg)</label>
+        <input id="pf-img" className="form-control" value={form.img ?? ""} onChange={text("img")} />
+      </div>
       <div className="col-12"><button className="btn btn-primary" type="submit">{submitLabel}</button></div>
     </form>
   );

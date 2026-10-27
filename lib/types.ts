@@ -16,6 +16,7 @@ export interface Product {
   stock: number;
   stockCritico: number;
   talla: string;
+  img?: string;
 }
 
 export type Role = "admin" | "cliente";
