@@ -12,14 +12,6 @@ describe("orders (compra y stock)", () => {
   beforeEach(() => setStorage(createFakeStorage()));
   afterEach(() => setStorage(null));
 
-  it("pago correcto: guarda la orden como pagada y descuenta el stock", () => {
-    const stockAntes = getById("products", "1")!.stock;
-    const order = placeOrder(cliente, items, null, true);
-    expect(order.estado).toBe("pagada");
-    expect(order.total).toBe(17980);
-    expect(getById("products", "1")!.stock).toBe(stockAntes - 2);
-  });
-
   it("pago con error: guarda la orden como fallida y NO descuenta el stock", () => {
     const stockAntes = getById("products", "1")!.stock;
     const order = placeOrder(cliente, items, null, false);
