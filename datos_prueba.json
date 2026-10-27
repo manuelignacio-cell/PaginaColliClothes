@@ -1,0 +1,221 @@
+{
+  "categories": [
+    {
+      "id": "poleras",
+      "nombre": "Poleras",
+      "descripcion": "Algodón suave para todos los días.",
+      "img": "/img/poleras.svg"
+    },
+    {
+      "id": "polerones",
+      "nombre": "Polerones",
+      "descripcion": "Abrigo cómodo con estilo urbano.",
+      "img": "/img/polerones.svg"
+    },
+    {
+      "id": "pantalones",
+      "nombre": "Pantalones",
+      "descripcion": "Jeans, cargo y joggers para cada ocasión.",
+      "img": "/img/pantalones.svg"
+    },
+    {
+      "id": "accesorios",
+      "nombre": "Accesorios",
+      "descripcion": "Gorros, mochilas y detalles que completan tu look.",
+      "img": "/img/accesorios.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "nombre": "Polera Básica Algodón",
+      "descripcion": "Corte regular, 100% algodón.",
+      "categoria": "poleras",
+      "precio": 9990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 40,
+      "stockCritico": 5,
+      "talla": "S, M, L, XL"
+    },
+    {
+      "id": "2",
+      "nombre": "Polera Oversize Colli",
+      "descripcion": "Corte holgado con logo bordado.",
+      "categoria": "poleras",
+      "precio": 12990,
+      "oferta": true,
+      "precioOferta": 9990,
+      "stock": 25,
+      "stockCritico": 5,
+      "talla": "M, L, XL"
+    },
+    {
+      "id": "3",
+      "nombre": "Polera Gráfica Urbana",
+      "descripcion": "Estampado exclusivo, edición limitada.",
+      "categoria": "poleras",
+      "precio": 13990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 4,
+      "stockCritico": 5,
+      "talla": "S, M, L"
+    },
+    {
+      "id": "4",
+      "nombre": "Polera Manga Larga",
+      "descripcion": "Ideal para entretiempo.",
+      "categoria": "poleras",
+      "precio": 11990,
+      "oferta": true,
+      "precioOferta": 9490,
+      "stock": 18,
+      "stockCritico": 5,
+      "talla": "S, M, L, XL"
+    },
+    {
+      "id": "5",
+      "nombre": "Poleron Canguro Colli",
+      "descripcion": "Felpa afelpada con capucha y bolsillo.",
+      "categoria": "polerones",
+      "precio": 24990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 30,
+      "stockCritico": 5,
+      "talla": "S, M, L, XL"
+    },
+    {
+      "id": "6",
+      "nombre": "Poleron Zip Gris",
+      "descripcion": "Cierre completo, tela gruesa.",
+      "categoria": "polerones",
+      "precio": 27990,
+      "oferta": true,
+      "precioOferta": 22990,
+      "stock": 22,
+      "stockCritico": 5,
+      "talla": "M, L, XL"
+    },
+    {
+      "id": "7",
+      "nombre": "Poleron Cuello Redondo",
+      "descripcion": "Estilo clásico y liviano.",
+      "categoria": "polerones",
+      "precio": 21990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 3,
+      "stockCritico": 5,
+      "talla": "S, M, L"
+    },
+    {
+      "id": "8",
+      "nombre": "Jeans Slim Azul",
+      "descripcion": "Corte slim, mezclilla elasticada.",
+      "categoria": "pantalones",
+      "precio": 29990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 35,
+      "stockCritico": 5,
+      "talla": "28, 30, 32, 34"
+    },
+    {
+      "id": "9",
+      "nombre": "Pantalón Cargo Negro",
+      "descripcion": "Bolsillos laterales, tela resistente.",
+      "categoria": "pantalones",
+      "precio": 32990,
+      "oferta": true,
+      "precioOferta": 26990,
+      "stock": 15,
+      "stockCritico": 5,
+      "talla": "30, 32, 34"
+    },
+    {
+      "id": "10",
+      "nombre": "Jogger Deportivo",
+      "descripcion": "Puño elástico y cintura ajustable.",
+      "categoria": "pantalones",
+      "precio": 19990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 28,
+      "stockCritico": 5,
+      "talla": "S, M, L, XL"
+    },
+    {
+      "id": "11",
+      "nombre": "Gorro Beanie Colli",
+      "descripcion": "Tejido acrílico, unisex.",
+      "categoria": "accesorios",
+      "precio": 7990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 50,
+      "stockCritico": 5,
+      "talla": "Única"
+    },
+    {
+      "id": "12",
+      "nombre": "Mochila Urbana 20L",
+      "descripcion": "Resistente al agua, bolsillo para notebook.",
+      "categoria": "accesorios",
+      "precio": 24990,
+      "oferta": true,
+      "precioOferta": 19990,
+      "stock": 6,
+      "stockCritico": 5,
+      "talla": "Única"
+    },
+    {
+      "id": "13",
+      "nombre": "Calcetines Pack x3",
+      "descripcion": "Algodón reforzado.",
+      "categoria": "accesorios",
+      "precio": 6990,
+      "oferta": false,
+      "precioOferta": 0,
+      "stock": 2,
+      "stockCritico": 5,
+      "talla": "Única"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "nombre": "Admin",
+      "apellido": "Colli Clothes",
+      "correo": "admin@colliclothes.cl",
+      "clave": "admin123",
+      "rol": "admin"
+    },
+    {
+      "id": "2",
+      "nombre": "Camila",
+      "apellido": "Rojas",
+      "correo": "cliente@correo.cl",
+      "clave": "cliente123",
+      "rol": "cliente"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "titulo": "Cómo elegir tu talla perfecta",
+      "fecha": "2026-09-12",
+      "resumen": "Medidas y consejos para comprar online sin errores.",
+      "contenido": "Para elegir bien tu talla mide el contorno de pecho, cintura y cadera y compáralo con nuestra tabla de medidas. Si estás entre dos tallas, elige la mayor en prendas ajustadas y la menor en cortes oversize. Recuerda que el algodón puede encoger levemente en el primer lavado."
+    },
+    {
+      "id": "2",
+      "titulo": "Tendencias urbanas de la temporada",
+      "fecha": "2026-10-03",
+      "resumen": "Colores y cortes que se vienen este año.",
+      "contenido": "Esta temporada dominan los cortes oversize, los tonos tierra y los básicos de calidad. Combina un poleron holgado con un jogger y suma un gorro beanie para un look cómodo y actual."
+    }
+  ],
+  "orders": []
+}

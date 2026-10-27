@@ -1,0 +1,23 @@
+/* Estilos propios sencillos. El resto del diseño viene de Bootstrap. */
+
+/* Fondo gris muy claro para toda la página */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Todas las imágenes de productos y categorías con el mismo tamaño */
+.imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Pie de página con fondo gris */
+footer {
+  background-color: #e9ecef;
+}
+
+/* Muestra la lista del menú "Categorías" cuando se hace clic */
+.dropdown-menu.show {
+  display: block;
+}
